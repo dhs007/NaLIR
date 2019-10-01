@@ -6,6 +6,9 @@ from nltk.tokenize import word_tokenize, sent_tokenize
 stop_words = set(stopwords.words('english'))
 p= input("Enter the sentence");
 tokenized= sent_tokenize(p)
+l=range(10)
+for i in l:
+	print(i);
 for i in tokenized:
 # Word tokenizers is used to find the words  
         # and punctuation in a string 
